@@ -16,4 +16,31 @@ body {
   background-color: var(--bg-color);
 }
 
+@media (max-width: 1199.98px) {
+  body {
+    height: 100%;
+    background-color: white;
+  }
+  .menu-lateral {
+    display: none !important;
+  }
+  .menu-nav {
+    display: block !important;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1200px) {
+  .testeNav {
+    display: none;
+    background-color: purple;
+  }
+}
+
 /*# sourceMappingURL=global.css.map */
