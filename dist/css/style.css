@@ -1,5 +1,13 @@
-:root {
-  --primary: #4647FA ;
+.espacamento {
+  padding: 1.37rem;
+}
+.espacamento .menu__movel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__color {
+  background-color: #4647FA !important;
 }
 
 #main__container {
